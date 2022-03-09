@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544378784852",
+    "project_id": "instaclonejava-3a548",
+    "storage_bucket": "instaclonejava-3a548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544378784852:android:2232d0e9415abe6efa71c1",
+        "android_client_info": {
+          "package_name": "com.caglar.ktinstaclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544378784852-briqgub6od9vggfsok6rdf67nd07ck1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKGLMgoERq_f2R7_0RPARWjPJERnshLE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544378784852-briqgub6od9vggfsok6rdf67nd07ck1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

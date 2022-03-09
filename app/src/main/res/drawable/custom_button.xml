@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item android:state_pressed="true" android:drawable="@color/purple_700"/> &lt;!&ndash; pressed &ndash;&gt;-->
+<!--    <item android:state_focused="true" android:drawable="@color/purple_700"/> &lt;!&ndash; focused &ndash;&gt;-->
+    <stroke android:width="2dp" android:color="@color/orange" />
+    <corners android:radius="5dp" />
+    <solid android:color="@color/purple_700" />
+
+</shape>
