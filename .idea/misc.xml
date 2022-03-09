@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/layout/activity_feed.xml" value="0.29257246376811596" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.67" />
         <entry key="app/src/main/res/layout/activity_upload.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/recycler_row.xml" value="0.35625" />
         <entry key="app/src/main/res/menu/options_menu.xml" value="0.35625" />
       </map>
     </option>

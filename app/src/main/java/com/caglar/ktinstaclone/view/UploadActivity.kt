@@ -1,4 +1,4 @@
-package com.caglar.ktinstaclone
+package com.caglar.ktinstaclone.view
 
 import android.Manifest
 import android.content.Intent
@@ -14,7 +14,6 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.caglar.ktinstaclone.databinding.ActivityMainBinding
 import com.caglar.ktinstaclone.databinding.ActivityUploadBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.Timestamp
@@ -56,7 +55,7 @@ class UploadActivity : AppCompatActivity() {
         if (selectedPicture != null) {
             imageReference.putFile(selectedPicture!!)
                 .addOnSuccessListener {
-                    //Save downloadurl -> fireStore
+                    //Save downloadUrl -> fireStore
                     val uploadPictureReference = storage.reference.child("images/").child(imageName)
                     uploadPictureReference.downloadUrl.addOnSuccessListener {
                         val downloadUrl = it.toString()
