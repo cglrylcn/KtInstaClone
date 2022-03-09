@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.caglar.ktinstaclone.databinding.RecyclerRowBinding
 import com.caglar.ktinstaclone.model.Post
+import com.squareup.picasso.Picasso
 
 class FeedAdapter(val postList: ArrayList<Post>) : RecyclerView.Adapter<FeedAdapter.PostHolder>() {
 
@@ -20,7 +21,7 @@ class FeedAdapter(val postList: ArrayList<Post>) : RecyclerView.Adapter<FeedAdap
     override fun onBindViewHolder(holder: PostHolder, position: Int) {
         holder.binding.recyclerViewEmailText.text = postList[position].email
         holder.binding.recyclerViewCommentText.text = postList[position].comment
-
+        Picasso.get().load(postList[position].downloadUrl).into(holder.binding.recyclerViewImageView)
     }
 
     override fun getItemCount(): Int {
